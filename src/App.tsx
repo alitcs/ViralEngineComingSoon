@@ -1,10 +1,6 @@
-import { useState } from "react";
 import logoUrl from "./assets/logo.png";
-import { Card } from "./card";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className=" min-w-screen min-h-screen bg-background text-foreground flex items-center justify-center display-flex flex-col gap-4">
       <div className="flex flex-row items-center justify-center gap-10">
