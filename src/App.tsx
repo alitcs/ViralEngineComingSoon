@@ -1,6 +1,5 @@
 import logoUrl from "./assets/logo.png";
 import { Countdown } from "./Countdown";
-import { Card } from "./card";
 
 function App() {
   return (
