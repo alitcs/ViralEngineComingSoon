@@ -1,17 +1,29 @@
 import logoUrl from "./assets/logo.png";
+import { Countdown } from "./Countdown";
+import { Card } from "./card";
 
 function App() {
   return (
-    <div className=" min-w-screen min-h-screen bg-background text-foreground flex items-center justify-center display-flex flex-col gap-4">
-      <div className="flex flex-row items-center justify-center gap-10">
-        <img
-          src={logoUrl}
-          alt="Viral Engine Logo"
-          className="justify-content-center mb-8 h-32 w-32 animate-fade-in"
-        />
-        <div className="text-6xl font-semibold mb-6">Viral Engine</div>
+    <div className="App">
+      <div className="timer">
+        <div className="min-h-screen flex items-center justify-center bg-background text-foreground p-4">
+          <div className="w-full max-w-xl flex flex-col items-center gap-6 p-8">
+            <img
+              src={logoUrl}
+              alt="Viral Engine Logo"
+              className="h-20 w-20 mb-2 rounded-full"
+            />
+            <h1 className="text-4xl sm:text-5xl font-semibold text-center">
+              Viral Engine
+            </h1>
+            <p className="text-muted-foreground text-center">
+              Smart video analytics boosting performance
+            </p>
+
+            <Countdown target="2026-03-31T00:00:00" />
+          </div>
+        </div>
       </div>
-      <div className="text-xl">Coming Soon...</div>
     </div>
   );
 }
