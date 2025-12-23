@@ -16,7 +16,7 @@ function App() {
               Viral Engine
             </h1>
             <p className="text-muted-foreground text-center">
-              Smart video analytics boosting performance
+              Video Analytics Boosting Performance
             </p>
 
             <Countdown target="2026-03-31T00:00:00" />
