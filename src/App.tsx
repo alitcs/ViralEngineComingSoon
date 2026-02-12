@@ -13,7 +13,7 @@ function App() {
               className="h-20 w-20 mb-2 rounded-full"
             />
             <h1 className="text-4xl sm:text-5xl font-semibold text-center">
-              Viral Engine
+              Vironix AI
             </h1>
             <p className="text-muted-foreground text-center">
               Performance-boosting video analytics
